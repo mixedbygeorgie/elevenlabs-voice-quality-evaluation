@@ -47,7 +47,8 @@ That average does not determine success for a cloning use case. All six outputs 
 
 ## Status
 
-**Evaluation completed on 2026-08-24.** The documentation and all six evaluated generated outputs are included. Original source-reference recordings are not included, which limits independent verification of voice-identity fidelity.
+**Evaluation completed on 2026-08-24.** The documentation, all six evaluated generated outputs and both original source-reference recordings are included. The findings are limited to this speaker, model, voice-setting configuration and the two documented source-capture profiles.
+
 
 
 ## Ethics and consent
