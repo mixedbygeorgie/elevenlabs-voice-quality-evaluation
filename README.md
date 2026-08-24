@@ -47,7 +47,8 @@ That average does not determine success for a cloning use case. All six outputs 
 
 ## Status
 
-**Evaluation completed on 2026-08-24.** Documentation is complete. Audio files and the live repository URL must still be added before the repository is submitted.
+**Evaluation completed on 2026-08-24.** The documentation and all six evaluated generated outputs are included. Original source-reference recordings are not included, which limits independent verification of voice-identity fidelity.
+
 
 ## Ethics and consent
 
