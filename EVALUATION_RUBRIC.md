@@ -25,4 +25,6 @@ Score each dimension from 1 to 5. Add short timestamped notes; the number alone 
 
 ## Scoring note
 
-Scores are subjective expert judgments from a small controlled evaluation. Report them as observations, not universal product claims.
+Scores are subjective expert judgments from a small paired practical comparison. Report them as observations, not universal product claims.
+
+For this voice-cloning use case, identity is a gating criterion rather than just another equally weighted score. An output with technically clean audio may be usable as a generic synthetic voice while still failing as a clone. Identity scores of 1–2 therefore fail the cloning acceptance gate regardless of the arithmetic average.

@@ -1,68 +1,53 @@
-# Test Plan
+# Test Method and Deviations
 
 ## Scope
 
-Run a compact 60–90 minute evaluation plus 30–60 minutes for documentation. Keep the project small enough to finish well.
+The evaluation compared two practical Instant Voice Cloning source-capture profiles across English, Norwegian and Spanish. The speaker used his own voice.
 
-## Inputs
+## Product and settings
 
-Use one consenting speaker and two short scripts per language:
+- Date: 2026-08-24
+- Product: ElevenLabs Instant Voice Cloning
+- Model: Eleven Flash v2.5
+- Stability: 50
+- Similarity: 75
+- Style: 0
 
-- Neutral: 12–20 seconds, conversational pacing
-- Expressive: 12–20 seconds, clear emotional or dynamic variation
-- Languages: English, Norwegian and Spanish
+## Source conditions
 
-Create two source conditions:
+- `clean`: source captured with an iPhone 15 Pro
+- `challenged`: source captured with a MacBook Air 13-inch, M3
+- Generated outputs: MP3
 
-- `clean`: quiet room, correct distance, healthy level, minimal reflections
-- `challenged`: controlled mild room tone, distance change or lower recording level; do not damage the source beyond realistic use
+The same model and settings were used throughout. Text was held constant within each clean/challenged language pair.
 
-Document microphone, interface, sample rate, bit depth and recording space.
+## Important design qualification
 
-## Controlled comparisons
-
-Choose one ElevenLabs product/model and compare no more than two variables. Examples:
-
-1. Clean versus challenged source
-2. Default versus one changed voice setting
-3. Neutral versus expressive source
-4. Same text across English, Norwegian and Spanish
-
-Change only one factor at a time. Save screenshots or write down the exact settings and model/version shown by the product.
+This was not a strict single-variable laboratory test. The capture device changed between conditions, and recording distance, original source format, monitoring chain and level-matching method were not documented. The results therefore describe these six tested outputs and two practical capture profiles; they do not isolate a universal causal effect of microphone quality.
 
 ## File naming
 
-Use consistent names:
+The generated files used the following names:
 
-`language_script_source_setting_take.ext`
-
-Examples:
-
-- `en_neutral_clean_default_01.wav`
-- `no_expressive_clean_default_01.wav`
-- `es_neutral_challenged_default_01.wav`
+- `en_clean.mp3`
+- `en_challenged.mp3`
+- `no_clean.mp3`
+- `no_challenged.mp3`
+- `es_clean.mp3`
+- `es_challenged.mp3`
 
 ## Listening procedure
 
-1. Loudness-match outputs before comparison without changing their character.
-2. Randomize or hide filenames where practical.
-3. Listen on the same calibrated monitoring chain.
-4. Score each output once without reference, then once against the source.
-5. Note timestamps for every artifact or pronunciation issue.
-6. Repeat any surprising failure once to distinguish instability from operator error.
+1. Review each output against the 1–5 production rubric.
+2. Compare each clean/challenged language pair.
+3. Score identity, intelligibility, pronunciation, prosody, artifacts, stability, editability and overall usability.
+4. Record timestamped notes for audible problems where possible.
+5. Separate technical deliverability from fidelity to the cloned speaker.
 
-## Minimum deliverables
-
-- Completed evaluation table for at least six outputs
-- Exact model/product and settings
-- Three to six short, consented audio examples if repository size and licensing allow
-- Three concrete findings
-- One production recommendation
-- One limitations section
-
-## Do not claim
+## Interpretation boundaries
 
 - A general model ranking from this small sample
 - Statistical significance
 - Native-level language judgment unless the evaluator is qualified to make it
 - Commercial use or customer impact that did not occur
+- A single-variable causal conclusion about the two recording devices

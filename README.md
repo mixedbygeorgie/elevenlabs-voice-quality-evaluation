@@ -2,41 +2,52 @@
 
 ## Purpose
 
-This small, practitioner-led evaluation examines how well an ElevenLabs voice workflow preserves identity and performance while producing intelligible, editable and production-ready audio.
+This practitioner-led listening evaluation examines whether an ElevenLabs Instant Voice Cloning workflow preserves speaker identity while producing intelligible, editable and technically deliverable audio.
 
-The project is designed as a focused listening study, not as a benchmark of the underlying model. It documents the questions, source conditions, listening rubric, results and production implications.
+The project is a small practical comparison, not a statistical model benchmark. It documents the capture conditions, scoring rubric, results, limitations and production implications.
 
 ## Evaluator
 
 Christer George is a senior recording, mixing and mastering engineer with 20+ years of hands-on voice and vocal production experience. His work includes more than 1,000 released and unreleased songs, demos and vocal productions and more than 500 commercially released mixes.
 
-## Research questions
+## Evaluation questions
 
-1. How consistently does the selected workflow preserve voice identity and timbre?
-2. How do clean and deliberately poorer source conditions affect intelligibility, pronunciation and artifacts?
-3. How stable is the voice across English, Norwegian and Spanish?
-4. Which settings or input changes improve or weaken production usability?
-5. What cleanup or editing remains necessary before customer delivery?
+1. Did either clone convincingly preserve the evaluator's voice identity?
+2. How did two practical source-capture conditions affect artifacts and production usability?
+3. Were the outputs intelligible and usable across English, Norwegian and Spanish?
+4. Which problems were repairable, and which required a new clone or regeneration?
 
 ## Method summary
 
-- Use only the evaluator's own voice or a voice with explicit, documented consent.
-- Keep scripts, file formats and naming consistent.
-- Test English, Norwegian and Spanish with a short neutral passage and a short expressive passage.
-- Compare at least two controlled input or setting conditions.
-- Evaluate blind where practical using the rubric in `EVALUATION_RUBRIC.md`.
-- Record observations and limitations, including failures and ambiguous results.
+- Product: ElevenLabs Instant Voice Cloning
+- Model: Eleven Flash v2.5
+- Voice settings: Stability 50, Similarity 75, Style 0
+- Speaker: evaluator's own voice
+- Source-capture profiles: iPhone 15 Pro (`clean`) and MacBook Air 13-inch, M3 (`challenged`)
+- Outputs: six short MP3 files across English, Norwegian and Spanish
+- Review: expert listening against a 1–5 production rubric with timestamped observations
+
+Text, model and voice settings were held constant within each language pair. Because the two conditions used different capture devices and the original recording distance, source format, monitoring chain and level-matching method were not documented, this should be read as a paired practical comparison rather than a strict single-variable experiment.
+
+## Headline result
+
+The clean-condition composite score was 3.71 versus 3.33 for the challenged condition. Artifact score showed the largest difference, falling from 4.00 to 2.67.
+
+That average does not determine success for a cloning use case. All six outputs scored 1/5 for identity. One Spanish output was technically deliverable as a generic synthetic voice, but neither clone was acceptable as a faithful reproduction of the evaluator's voice.
 
 ## Repository contents
 
-- `TEST_PLAN.md` — controlled test design and file naming
+- `TEST_PLAN.md` — executed method and deviations from a strict controlled design
 - `EVALUATION_RUBRIC.md` — listening criteria and score definitions
-- `FINDINGS_TEMPLATE.md` — results structure to complete after testing
-- `SUBMISSION_CHECKLIST.md` — ethical, technical and publishing checks
+- `SCORES.md` — complete score transcription and condition averages
+- `FINDINGS.md` — evidence, interpretation and production recommendation
+- `APPLICATION_ANSWER.md` — concise application-ready summary
+- `audio/README.md` — audio file manifest and publishing guidance
+- `SUBMISSION_CHECKLIST.md` — final publishing checks
 
 ## Status
 
-**Planned evaluation. Results have not yet been added.** Replace this status after the test is complete and do not publish claims that are not supported by the documented outputs.
+**Evaluation completed on 2026-08-24.** Documentation is complete. Audio files and the live repository URL must still be added before the repository is submitted.
 
 ## Ethics and consent
 
