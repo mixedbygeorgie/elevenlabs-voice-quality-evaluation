@@ -37,13 +37,11 @@ That average does not determine success for a cloning use case. All six outputs 
 
 ## Repository contents
 
-- `TEST_PLAN.md` — executed method and deviations from a strict controlled design
-- `EVALUATION_RUBRIC.md` — listening criteria and score definitions
-- `SCORES.md` — complete score transcription and condition averages
-- `FINDINGS.md` — evidence, interpretation and production recommendation
-- `APPLICATION_ANSWER.md` — concise application-ready summary
-- `audio/README.md` — audio file manifest and publishing guidance
-- `SUBMISSION_CHECKLIST.md` — final publishing checks
+* `TEST_PLAN.md` — executed method and deviations from a strict controlled design
+* `EVALUATION_RUBRIC.md` — listening criteria, score definitions and the identity acceptance gate
+* `SCORES.md` — complete score transcription and condition averages
+* `FINDINGS.md` — timestamped evidence, interpretation, limitations and production recommendations
+* `audio/` — six evaluated generated outputs and two original source-reference recordings
 
 ## Status
 
