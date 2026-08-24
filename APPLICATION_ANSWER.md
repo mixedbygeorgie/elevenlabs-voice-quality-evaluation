@@ -6,4 +6,5 @@ The challenged condition reduced the composite score from 3.71 to 3.33, primaril
 
 The exercise reinforced a production principle I use in professional audio work: technical cleanliness and identity fidelity must be evaluated separately, with identity treated as a hard gate in voice-cloning QA. I documented the method, rubric, scores, timestamped findings, production implications and limitations in the repository below.
 
-Repository: `[ADD PUBLIC GITHUB URL]`
+Repository: https://github.com/mixedbygeorgie/elevenlabs-voice-quality-evaluation
+
